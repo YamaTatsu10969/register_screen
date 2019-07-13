@@ -26,6 +26,7 @@ final class GenderEditCell: UITableViewCell {
         super.awakeFromNib()
         
         // buttonをまとめて処理するために、この処理が必要。めちゃ便利
+        buttons = [UIButton]()
         buttons.append(notsetGenderButton)
         buttons.append(womanGencerButton)
         buttons.append(manGenderButton)

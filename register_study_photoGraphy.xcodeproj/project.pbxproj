@@ -35,6 +35,7 @@
 		672EA6A122D9D76400EC76E1 /* PlaceEditCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 672EA69F22D9D76400EC76E1 /* PlaceEditCell.xib */; };
 		672EA6A422D9D90E00EC76E1 /* BioEditCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672EA6A222D9D90E00EC76E1 /* BioEditCell.swift */; };
 		672EA6A522D9D90E00EC76E1 /* BioEditCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 672EA6A322D9D90E00EC76E1 /* BioEditCell.xib */; };
+		672EA6A722DA1A0D00EC76E1 /* AppEnviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672EA6A622DA1A0D00EC76E1 /* AppEnviroment.swift */; };
 		67A8FDCD22D7349700A89321 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A8FDCC22D7349700A89321 /* AppDelegate.swift */; };
 		67A8FDCF22D7349700A89321 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A8FDCE22D7349700A89321 /* ViewController.swift */; };
 		67A8FDD222D7349700A89321 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67A8FDD022D7349700A89321 /* Main.storyboard */; };
@@ -95,6 +96,7 @@
 		672EA69F22D9D76400EC76E1 /* PlaceEditCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaceEditCell.xib; sourceTree = "<group>"; };
 		672EA6A222D9D90E00EC76E1 /* BioEditCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioEditCell.swift; sourceTree = "<group>"; };
 		672EA6A322D9D90E00EC76E1 /* BioEditCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BioEditCell.xib; sourceTree = "<group>"; };
+		672EA6A622DA1A0D00EC76E1 /* AppEnviroment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnviroment.swift; sourceTree = "<group>"; };
 		67A8FDC922D7349700A89321 /* register_study_photoGraphy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = register_study_photoGraphy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67A8FDCC22D7349700A89321 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67A8FDCE22D7349700A89321 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -329,6 +331,7 @@
 			isa = PBXGroup;
 			children = (
 				672EA67F22D75B5200EC76E1 /* AppDispatcher.swift */,
+				672EA6A622DA1A0D00EC76E1 /* AppEnviroment.swift */,
 			);
 			path = "API Config";
 			sourceTree = "<group>";
@@ -415,6 +418,7 @@
 				672EA68022D75B5200EC76E1 /* AppDispatcher.swift in Sources */,
 				672EA68B22D9ADBD00EC76E1 /* PickerTextField.swift in Sources */,
 				672EA68622D8778100EC76E1 /* Operation.swift in Sources */,
+				672EA6A722DA1A0D00EC76E1 /* AppEnviroment.swift in Sources */,
 				67A8FE0822D737A800A89321 /* Promise+Observer.swift in Sources */,
 				67A8FDFB22D737A800A89321 /* Commons.swift in Sources */,
 				67A8FE0C22D737A800A89321 /* Promise.swift in Sources */,

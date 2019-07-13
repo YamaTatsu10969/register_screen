@@ -9,8 +9,8 @@
 import Foundation
 
 final class AppDispatcher {
-//    static func appDispatcher() -> Dispatcher {
-        // let dispatcher = NetworkDispatcher()
-//    }
-    
+    static func appDispatcher() ->Dispatcher {
+        let dispatcher = NetworkDispatcher(environment: AppEnviroment.appEnviroment())
+        return dispatcher
+    }
 }
