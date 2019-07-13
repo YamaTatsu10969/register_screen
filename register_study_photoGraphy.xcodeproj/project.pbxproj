@@ -21,6 +21,20 @@
 		672EA68022D75B5200EC76E1 /* AppDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672EA67F22D75B5200EC76E1 /* AppDispatcher.swift */; };
 		672EA68222D75BB300EC76E1 /* NetworkDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672EA68122D75BB300EC76E1 /* NetworkDispatcher.swift */; };
 		672EA68622D8778100EC76E1 /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672EA68522D8778100EC76E1 /* Operation.swift */; };
+		672EA68B22D9ADBD00EC76E1 /* PickerTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672EA68A22D9ADBD00EC76E1 /* PickerTextField.swift */; };
+		672EA68D22D9B08200EC76E1 /* PlaceholderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672EA68C22D9B08200EC76E1 /* PlaceholderTextView.swift */; };
+		672EA69022D9C91B00EC76E1 /* IconEditCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672EA68E22D9C91B00EC76E1 /* IconEditCell.swift */; };
+		672EA69122D9C91B00EC76E1 /* IconEditCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 672EA68F22D9C91B00EC76E1 /* IconEditCell.xib */; };
+		672EA69422D9D05200EC76E1 /* NickNameEditCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672EA69222D9D05200EC76E1 /* NickNameEditCell.swift */; };
+		672EA69522D9D05200EC76E1 /* NickNameEditCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 672EA69322D9D05200EC76E1 /* NickNameEditCell.xib */; };
+		672EA69822D9D26400EC76E1 /* GenderEditCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672EA69622D9D26400EC76E1 /* GenderEditCell.swift */; };
+		672EA69922D9D26400EC76E1 /* GenderEditCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 672EA69722D9D26400EC76E1 /* GenderEditCell.xib */; };
+		672EA69C22D9D50600EC76E1 /* AgeEditCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672EA69A22D9D50600EC76E1 /* AgeEditCell.swift */; };
+		672EA69D22D9D50600EC76E1 /* AgeEditCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 672EA69B22D9D50600EC76E1 /* AgeEditCell.xib */; };
+		672EA6A022D9D76400EC76E1 /* PlaceEditCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672EA69E22D9D76400EC76E1 /* PlaceEditCell.swift */; };
+		672EA6A122D9D76400EC76E1 /* PlaceEditCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 672EA69F22D9D76400EC76E1 /* PlaceEditCell.xib */; };
+		672EA6A422D9D90E00EC76E1 /* BioEditCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672EA6A222D9D90E00EC76E1 /* BioEditCell.swift */; };
+		672EA6A522D9D90E00EC76E1 /* BioEditCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 672EA6A322D9D90E00EC76E1 /* BioEditCell.xib */; };
 		67A8FDCD22D7349700A89321 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A8FDCC22D7349700A89321 /* AppDelegate.swift */; };
 		67A8FDCF22D7349700A89321 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A8FDCE22D7349700A89321 /* ViewController.swift */; };
 		67A8FDD222D7349700A89321 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67A8FDD022D7349700A89321 /* Main.storyboard */; };
@@ -67,6 +81,20 @@
 		672EA67F22D75B5200EC76E1 /* AppDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDispatcher.swift; sourceTree = "<group>"; };
 		672EA68122D75BB300EC76E1 /* NetworkDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDispatcher.swift; sourceTree = "<group>"; };
 		672EA68522D8778100EC76E1 /* Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
+		672EA68A22D9ADBD00EC76E1 /* PickerTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerTextField.swift; sourceTree = "<group>"; };
+		672EA68C22D9B08200EC76E1 /* PlaceholderTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderTextView.swift; sourceTree = "<group>"; };
+		672EA68E22D9C91B00EC76E1 /* IconEditCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconEditCell.swift; sourceTree = "<group>"; };
+		672EA68F22D9C91B00EC76E1 /* IconEditCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IconEditCell.xib; sourceTree = "<group>"; };
+		672EA69222D9D05200EC76E1 /* NickNameEditCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NickNameEditCell.swift; sourceTree = "<group>"; };
+		672EA69322D9D05200EC76E1 /* NickNameEditCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NickNameEditCell.xib; sourceTree = "<group>"; };
+		672EA69622D9D26400EC76E1 /* GenderEditCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderEditCell.swift; sourceTree = "<group>"; };
+		672EA69722D9D26400EC76E1 /* GenderEditCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GenderEditCell.xib; sourceTree = "<group>"; };
+		672EA69A22D9D50600EC76E1 /* AgeEditCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeEditCell.swift; sourceTree = "<group>"; };
+		672EA69B22D9D50600EC76E1 /* AgeEditCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AgeEditCell.xib; sourceTree = "<group>"; };
+		672EA69E22D9D76400EC76E1 /* PlaceEditCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceEditCell.swift; sourceTree = "<group>"; };
+		672EA69F22D9D76400EC76E1 /* PlaceEditCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaceEditCell.xib; sourceTree = "<group>"; };
+		672EA6A222D9D90E00EC76E1 /* BioEditCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioEditCell.swift; sourceTree = "<group>"; };
+		672EA6A322D9D90E00EC76E1 /* BioEditCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BioEditCell.xib; sourceTree = "<group>"; };
 		67A8FDC922D7349700A89321 /* register_study_photoGraphy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = register_study_photoGraphy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67A8FDCC22D7349700A89321 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67A8FDCE22D7349700A89321 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -119,6 +147,43 @@
 			name = SignUp;
 			sourceTree = "<group>";
 		};
+		672EA68722D9AD8800EC76E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				672EA68822D9AD9D00EC76E1 /* Component */,
+				672EA68922D9ADA900EC76E1 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		672EA68822D9AD9D00EC76E1 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				672EA68A22D9ADBD00EC76E1 /* PickerTextField.swift */,
+				672EA68C22D9B08200EC76E1 /* PlaceholderTextView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		672EA68922D9ADA900EC76E1 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				672EA68E22D9C91B00EC76E1 /* IconEditCell.swift */,
+				672EA68F22D9C91B00EC76E1 /* IconEditCell.xib */,
+				672EA69222D9D05200EC76E1 /* NickNameEditCell.swift */,
+				672EA69322D9D05200EC76E1 /* NickNameEditCell.xib */,
+				672EA69622D9D26400EC76E1 /* GenderEditCell.swift */,
+				672EA69722D9D26400EC76E1 /* GenderEditCell.xib */,
+				672EA69A22D9D50600EC76E1 /* AgeEditCell.swift */,
+				672EA69B22D9D50600EC76E1 /* AgeEditCell.xib */,
+				672EA69E22D9D76400EC76E1 /* PlaceEditCell.swift */,
+				672EA69F22D9D76400EC76E1 /* PlaceEditCell.xib */,
+				672EA6A222D9D90E00EC76E1 /* BioEditCell.swift */,
+				672EA6A322D9D90E00EC76E1 /* BioEditCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		67A8FDC022D7349700A89321 = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				67A8FDDE22D7374500A89321 /* Model */,
+				672EA68722D9AD8800EC76E1 /* View */,
 				67A8FDCC22D7349700A89321 /* AppDelegate.swift */,
 				67A8FDCE22D7349700A89321 /* ViewController.swift */,
 				67A8FDD022D7349700A89321 /* Main.storyboard */,
@@ -163,7 +229,7 @@
 		67A8FDDF22D7375400A89321 /* API */ = {
 			isa = PBXGroup;
 			children = (
-				67A8FE1122D74C3100A89321 /* Bsic Protocols */,
+				67A8FE1122D74C3100A89321 /* Basic Protocols */,
 				67A8FE1222D74C3F00A89321 /* API Request */,
 				67A8FE1322D74C4D00A89321 /* API Operasions */,
 				67A8FE1422D74C6700A89321 /* API Errors */,
@@ -222,7 +288,7 @@
 			path = ../../../oruka_user_register/oruka_user_register/Model/Promise;
 			sourceTree = "<group>";
 		};
-		67A8FE1122D74C3100A89321 /* Bsic Protocols */ = {
+		67A8FE1122D74C3100A89321 /* Basic Protocols */ = {
 			isa = PBXGroup;
 			children = (
 				67A8FE1622D74CB000A89321 /* Dispatcher.swift */,
@@ -232,7 +298,7 @@
 				672EA68122D75BB300EC76E1 /* NetworkDispatcher.swift */,
 				672EA68522D8778100EC76E1 /* Operation.swift */,
 			);
-			path = "Bsic Protocols";
+			path = "Basic Protocols";
 			sourceTree = "<group>";
 		};
 		67A8FE1222D74C3F00A89321 /* API Request */ = {
@@ -325,7 +391,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				672EA69922D9D26400EC76E1 /* GenderEditCell.xib in Resources */,
+				672EA6A522D9D90E00EC76E1 /* BioEditCell.xib in Resources */,
+				672EA69122D9C91B00EC76E1 /* IconEditCell.xib in Resources */,
+				672EA69D22D9D50600EC76E1 /* AgeEditCell.xib in Resources */,
+				672EA69522D9D05200EC76E1 /* NickNameEditCell.xib in Resources */,
 				67A8FDD722D7349800A89321 /* LaunchScreen.storyboard in Resources */,
+				672EA6A122D9D76400EC76E1 /* PlaceEditCell.xib in Resources */,
 				67A8FDD422D7349800A89321 /* Assets.xcassets in Resources */,
 				67A8FDD222D7349700A89321 /* Main.storyboard in Resources */,
 			);
@@ -341,11 +413,13 @@
 				67A8FE1722D74CB000A89321 /* Dispatcher.swift in Sources */,
 				67A8FE0D22D737A800A89321 /* Promise+Map.swift in Sources */,
 				672EA68022D75B5200EC76E1 /* AppDispatcher.swift in Sources */,
+				672EA68B22D9ADBD00EC76E1 /* PickerTextField.swift in Sources */,
 				672EA68622D8778100EC76E1 /* Operation.swift in Sources */,
 				67A8FE0822D737A800A89321 /* Promise+Observer.swift in Sources */,
 				67A8FDFB22D737A800A89321 /* Commons.swift in Sources */,
 				67A8FE0C22D737A800A89321 /* Promise.swift in Sources */,
 				67A8FDFD22D737A800A89321 /* Promise+Reduce.swift in Sources */,
+				672EA69C22D9D50600EC76E1 /* AgeEditCell.swift in Sources */,
 				67A8FE0F22D737A800A89321 /* Promise+Validate.swift in Sources */,
 				672EA67E22D7584C00EC76E1 /* CacheKey.swift in Sources */,
 				672EA66F22D74F5100EC76E1 /* Request.swift in Sources */,
@@ -353,7 +427,9 @@
 				67A8FE0122D737A800A89321 /* Promise+Async.swift in Sources */,
 				672EA68222D75BB300EC76E1 /* NetworkDispatcher.swift in Sources */,
 				67A8FE0422D737A800A89321 /* DispatchTimerWrapper.swift in Sources */,
+				672EA69822D9D26400EC76E1 /* GenderEditCell.swift in Sources */,
 				67A8FE0A22D737A800A89321 /* Promise+Timeout.swift in Sources */,
+				672EA69422D9D05200EC76E1 /* NickNameEditCell.swift in Sources */,
 				672EA67C22D7581800EC76E1 /* Prefecture.swift in Sources */,
 				67A8FE0522D737A800A89321 /* Promise+Defer.swift in Sources */,
 				67A8FE0622D737A800A89321 /* Promise+Always.swift in Sources */,
@@ -362,12 +438,15 @@
 				672EA67822D757B100EC76E1 /* Gender.swift in Sources */,
 				67A8FDCF22D7349700A89321 /* ViewController.swift in Sources */,
 				67A8FE1022D737A800A89321 /* Promise+Then.swift in Sources */,
+				672EA6A422D9D90E00EC76E1 /* BioEditCell.swift in Sources */,
 				67A8FE0B22D737A800A89321 /* Promise+All.swift in Sources */,
 				67A8FE0322D737A800A89321 /* Promise+Await.swift in Sources */,
+				672EA68D22D9B08200EC76E1 /* PlaceholderTextView.swift in Sources */,
 				67A8FE0922D737A800A89321 /* Promise+State.swift in Sources */,
 				672EA66B22D74DE400EC76E1 /* Response.swift in Sources */,
 				67A8FDCD22D7349700A89321 /* AppDelegate.swift in Sources */,
 				672EA67322D7543400EC76E1 /* SignUpOperation.swift in Sources */,
+				672EA6A022D9D76400EC76E1 /* PlaceEditCell.swift in Sources */,
 				67A8FE0022D737A800A89321 /* Promise+Catch.swift in Sources */,
 				672EA66922D74D3500EC76E1 /* Environment.swift in Sources */,
 				67A8FDFE22D737A800A89321 /* Promise+Recover.swift in Sources */,
@@ -377,6 +456,7 @@
 				67A8FDFC22D737A800A89321 /* Promise+Pass.swift in Sources */,
 				67A8FDFF22D737A800A89321 /* Promise+Cancel.swift in Sources */,
 				672EA67A22D757DC00EC76E1 /* Me.swift in Sources */,
+				672EA69022D9C91B00EC76E1 /* IconEditCell.swift in Sources */,
 				672EA67622D7578100EC76E1 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
