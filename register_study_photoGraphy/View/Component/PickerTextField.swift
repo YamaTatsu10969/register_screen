@@ -15,7 +15,8 @@ protocol PickerTextFieldDelegate: UITextFieldDelegate {
 @IBDesignable
 final class PickerTextField: UITextField {
     var pickerView: UIPickerView!
-    var pickerContent: [String]! {
+    
+    var pickerContents: [String]! {
         didSet {
             pickerView?.reloadAllComponents()
         }
@@ -24,7 +25,7 @@ final class PickerTextField: UITextField {
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        pickerContent = [String]()
+        pickerContents = [String]()
         
         pickerView = UIPickerView()
         pickerView.delegate = self
@@ -53,17 +54,17 @@ extension PickerTextField: UIPickerViewDelegate, UIPickerViewDataSource {
     }
     
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        return pickerContent.count
+        return pickerContents.count
     }
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        return pickerContent[row]
+        return pickerContents[row]
     }
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        text = pickerContent[row]
+        text = pickerContents[row]
         //　選択された時に、delegateメソッドを使う。
-        (delegate as? PickerTextFieldDelegate)?.pickerTextField(self, didSelectPickerValue: pickerContent[row])
+        (delegate as? PickerTextFieldDelegate)?.pickerTextField(self, didSelectPickerValue: pickerContents[row])
     }
     
     

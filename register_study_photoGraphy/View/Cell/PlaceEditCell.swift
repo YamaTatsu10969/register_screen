@@ -9,13 +9,13 @@
 import UIKit
 
 protocol PlaceEditCellDelegate: AnyObject {
-    func PlaceEditCell(_ cell: PlaceEditCell, didSelectedPlace place: String)
+    func placeEditCell(_ cell: PlaceEditCell, didSelectedPlace place: String)
 }
 
 final class PlaceEditCell: UITableViewCell {
 
     @IBOutlet weak var textField: PickerTextField!
-    lazy var currentValue: String? = textField.pickerContent.first
+    lazy var currentValue: String? = textField.pickerContents.first
     
     weak var delegate: PlaceEditCellDelegate?
     
@@ -30,11 +30,11 @@ extension PlaceEditCell: UITextFieldDelegate, PickerTextFieldDelegate {
     func textFieldDidBeginEditing(_ textField: UITextField) {
         textField.text = currentValue
         if let text = textField.text {
-            delegate?.PlaceEditCell(self, didSelectedPlace: text)
+            delegate?.placeEditCell(self, didSelectedPlace: text)
         }
     }
     
     func pickerTextField(_ textField: PickerTextField, didSelectPickerValue value: String) {
-        delegate?.PlaceEditCell(self, didSelectedPlace: value)
+        delegate?.placeEditCell(self, didSelectedPlace: value)
     }
 }

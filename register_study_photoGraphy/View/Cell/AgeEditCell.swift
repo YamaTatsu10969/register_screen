@@ -18,7 +18,7 @@ final class AgeEditCell: UITableViewCell {
     
     weak var delegate: AgeEditCellDelegate?
     
-    lazy var currentValue: String? = textField.pickerContent.first
+    lazy var currentValue: String? = textField.pickerContents.first
     
     override func awakeFromNib() {
         super.awakeFromNib()
