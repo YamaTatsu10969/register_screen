@@ -12,8 +12,10 @@ final class AppEnviroment {
     static func appEnviroment() ->Environment {
         var em: Environment!
         #if DEBUG
+        // hostにはapiのURLを書きます
         em = Environment("app_debug", host: "apiUrl")
         #else
+        // hostにはapiのURLを書きます
         em = Environment("app_production", host: "apiUrl")
         #endif
         em.headers = [
