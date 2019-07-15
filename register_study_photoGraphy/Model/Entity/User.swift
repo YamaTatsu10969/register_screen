@@ -17,6 +17,8 @@ class User: Codable {
     let bio: String?
     let token: String
     
+    // おそらくここは必要ない。decodeと、encodeの名前が異なる場合のみ実装するから。
+    // いるんかな。。。"id"はいらないっぽい。
     enum CodingKeys: String, CodingKey {
         case id = "id"
         case name = "name"
@@ -27,6 +29,7 @@ class User: Codable {
         case token = "token"
     }
     
+    // JSON をdecode （user型にする）
     required init(from decoder: Decoder) throws {
         let values = try decoder.container(keyedBy: CodingKeys.self)
         id = try values.decode(UInt64.self, forKey: .id)
@@ -42,6 +45,7 @@ class User: Codable {
         token = try values.decode(String.self, forKey: .token)
     }
     
+    // encodeを可能にしている
     func encode(to encoder: Encoder) throws {
         var container = encoder.container(keyedBy: CodingKeys.self)
         try container.encode(id, forKey: .id)
